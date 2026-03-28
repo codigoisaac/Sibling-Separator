@@ -3,7 +3,7 @@
   "displayName": "Desgruda - Separate Sibling Elements in JSX/TSX code",
   "description": "Improve code readability by automatically separating sibling JSX/TSX elements with a blank line.",
   "icon": "images/icon.png",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "publisher": "IsaacMuniz",
   "repository": "https://github.com/codigoisaac/Desgruda",
   "pricing": "Free",
