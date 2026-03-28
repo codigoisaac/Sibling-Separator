@@ -35,7 +35,8 @@
     "vscode:prepublish": "npm run compile -- --minify",
     "compile": "esbuild src/extension.ts --bundle --outfile=out/extension.js --external:vscode --format=cjs --platform=node",
     "watch": "npm run compile -- --watch",
-    "package": "npx @vscode/vsce package",
+    "package": "vsce package",
+    "publish": "vsce publish",
     "lint": "eslint src"
   },
   "devDependencies": {
@@ -44,6 +45,7 @@
     "@types/vscode": "^1.105.0",
     "@typescript-eslint/eslint-plugin": "^8.45.0",
     "@typescript-eslint/parser": "^8.45.0",
+    "@vscode/vsce": "^3.7.1",
     "esbuild": "^0.27.4",
     "eslint": "^9.36.0",
     "typescript": "^5.9.3"
