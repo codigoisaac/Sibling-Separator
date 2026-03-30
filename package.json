@@ -3,15 +3,43 @@
   "displayName": "Sibling Separator",
   "description": "Improve code readability by automatically separating sibling JSX/TSX elements with a blank line.",
   "icon": "images/icon.png",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "publisher": "IsaacMuniz",
-  "repository": "https://github.com/codigoisaac/Desgruda",
+  "repository": "https://github.com/codigoisaac/Sibling-Separator",
   "pricing": "Free",
+  "license": "MIT",
+  "galleryBanner": {
+    "color": "#cbad9a",
+    "theme": "dark"
+  },
+  "keywords": [
+    "jsx",
+    "tsx",
+    "formatter",
+    "format",
+    "spacing",
+    "react",
+    "sibling",
+    "separator",
+    "readability",
+    "readable",
+    "blank lines",
+    "whitespace",
+    "clean code",
+    "code style",
+    "beautify",
+    "typescript",
+    "javascript",
+    "nextjs",
+    "elements",
+    "organize",
+    "html"
+  ],
   "engines": {
-    "vscode": "^1.105.0"
+    "vscode": "^1.74.0"
   },
   "categories": [
-    "Other"
+    "Formatters"
   ],
   "activationEvents": [],
   "main": "./out/extension.js",
@@ -19,7 +47,7 @@
     "commands": [
       {
         "command": "sibling-separator.separate",
-        "title": "Sibling Separator"
+        "title": "Sibling Separator: Separate Elements"
       }
     ],
     "keybindings": [

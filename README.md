@@ -62,7 +62,7 @@ The extension will:
 
 ## Contributing
 
-Found a bug or have a feature request? Please open an issue on the [GitHub repository](https://github.com/codigoisaac/Desgruda).
+Found a bug or have a feature request? Please open an issue on the [GitHub repository](https://github.com/codigoisaac/Sibling-Separator).
 
 ## License
 
