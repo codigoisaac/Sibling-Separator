@@ -5,7 +5,7 @@ import MagicString from "magic-string";
 
 export function activate(context: vscode.ExtensionContext) {
   function showVscodeMessage(type: "info" | "error", message: string) {
-    const messageIntro = `Sibling Separator:`;
+    const messageIntro = `Code Breathe:`;
     const messageBody = `${messageIntro} ${message}`;
 
     switch (type) {
@@ -20,7 +20,7 @@ export function activate(context: vscode.ExtensionContext) {
   }
 
   const disposable = vscode.commands.registerCommand(
-    "sibling-separator.separate",
+    "code-breathe.separate-siblings",
     async () => {
       const editor = vscode.window.activeTextEditor;
 
